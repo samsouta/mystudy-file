@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+    font-size: 30px;
+}
+#list {
+    color: pink;
+    list-style: armenian;
+}
+#list-two {
+    color: brown;
+    list-style: none;
+}
+.list-c {
+    color: black !important ;
+    list-style: decimal-leading-zero !important ;
+}

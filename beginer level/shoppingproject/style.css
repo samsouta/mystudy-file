@@ -1,0 +1,33 @@
+body {
+    background-color: gray;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;   
+}
+.form-control {
+    max-width: 300px;
+}
+.spanContainer {
+    margin-bottom: 30px;
+}
+.spanClassDiv {
+    display: inline;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 10px;
+}
+.lineClick {
+    text-decoration: line-through;
+}
+.fa-solid {
+    font-size: 20px;
+    cursor: pointer;
+}

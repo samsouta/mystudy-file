@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+     height: 100vh;
+}
+.mainContainerA{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 10px;
+}
+.logoContainerA {
+    background-color: ;
+}
+.inputContainerA{
+    margin-right: 10px;
+}
+.img {
+    max-width: 100px;
+}
+.form-control{
+    max-width: 400px;
+}
+.valueDiv{
+    margin-top: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.spanTap{
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.line {
+    text-decoration: line-through;
+}
+.spanDiv {
+    margin-right: 5px;
+    display: inline;
+}

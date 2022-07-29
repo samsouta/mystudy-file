@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mother-item{
+            padding-left: 0%;
+            width: 400px;
+        }
+
+        .son-item{
+            border: 1px solid rgba(65, 61, 61, 0.589);
+            padding: 8px;
+            list-style: none;
+            color: rgb(134, 135, 136);
+            
+        }
+        .active{
+            background-color: rgba(7, 7, 255, 0.527);
+            color: white;
+        }
+        .son-item:hover{
+            background-color: rgb(102, 161, 209);
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <ul class="mother-item" >
+        <li class="son-item active ">an item</li>
+        <li class="son-item" >two item</li>
+        <li class="son-item" >three item</li>
+        <li class="son-item" >four item</li>
+    </ul>
+</body>
+</html>

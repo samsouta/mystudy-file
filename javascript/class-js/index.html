@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //class are a template for create object
+        /*syntax
+        class Name {//code } 
+
+        {//code --> in code => property and method can use}
+        */
+        class Obj {
+
+            // properties
+            name = "sithumin";
+            age = 19;
+            // methods
+            skill(){
+                return "web developer"
+            }
+            gf(){
+                return "pep"
+            }
+        }
+
+         /*
+       let Obj = new Name ; (if want to use like object => use new keyjword to make instance) 
+       */
+       let newObj = new Obj;
+
+       console.log(newObj.name)
+       console.log(newObj.age)
+       console.log(newObj.skill())
+       console.log(newObj.gf())
+
+       /*
+       if no want to use (new keyword)
+        you can use (static method)
+       */
+      // syntax
+
+      class Obj {
+
+                // properties
+               static name = "sithumin";
+                age = 19;
+                // methods
+               static skill(){
+                    return "web developer"
+                }
+                gf(){
+                    return "pep"
+                }
+       }
+
+    </script>
+</body>
+</html>

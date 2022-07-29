@@ -1,0 +1,54 @@
+body {
+    background-color: gray;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.playListChild {
+    background-color: #C8FDFF;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.playListChild:hover {
+    color: black;
+    background-color:#E4FEFF;
+    transition: 0.5s;
+    
+}
+.audioContainer {
+    margin-top: 30px;
+}
+#barContainer {
+ width: 400px;
+ height: 4px;
+ background-color: rgb(40, 107, 108);
+ border-radius: 10px;
+ cursor: pointer;
+ user-select: none;
+}
+#currentBar {
+    width: 0px;
+    height: 100%;
+    background-color: red;
+    cursor: pointer;
+    user-select: none;
+}
+.playTime {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.fas {
+    padding: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.pauseBtn  {
+    display: none;
+}

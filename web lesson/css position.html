@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 200vh;
+        }
+        .mother-box{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color: rgb(255, 0, 85);
+            z-index: 2;
+        }
+        .box-one{
+           
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 10px;
+            right: 100px;
+          
+        }
+        .box-two{
+            background-color: rgb(200, 255, 0);
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            top: 0px;
+            right: 0;
+        }
+        .box-three{
+           
+            width: 200px;
+            height: 100px;
+            position: sticky;
+            top: 10px;
+            z-index: 3;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <h1>css position</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit qui illo, laborum eaque aspernatur deleniti reiciendis? Voluptatibus officia excepturi possimus sequi laudantium sed, suscipit eum doloribus soluta ipsum temporibus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit qui illo, laborum eaque aspernatur deleniti reiciendis? Voluptatibus officia excepturi possimus sequi laudantium sed, suscipit eum doloribus soluta ipsum temporibus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit qui illo, laborum eaque aspernatur deleniti reiciendis? Voluptatibus officia excepturi possimus sequi laudantium sed, suscipit eum doloribus soluta ipsum temporibus!
+    </p>
+    <div class="box-three" >
+        <img class="box-three" src="./anime photo/peakpx (5).jpg" alt="">
+    </div>
+    <p class="p-box" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit qui illo, laborum eaque aspernatur deleniti reiciendis? Voluptatibus officia excepturi possimus sequi laudantium sed, suscipit eum doloribus soluta ipsum temporibus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit qui illo, laborum eaque aspernatur deleniti reiciendis? Voluptatibus officia excepturi possimus sequi laudantium sed, suscipit eum doloribus soluta ipsum temporibus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit qui illo, laborum eaque aspernatur deleniti reiciendis? Voluptatibus officia excepturi possimus sequi laudantium sed, suscipit eum doloribus soluta ipsum temporibus!
+    </p>
+    <div class="mother-box" >
+        <div class="box-one" >
+            <video class="box-one" src="./anime photo/ttmmo.mp4" controls >video</video>
+        </div>
+        <div class="box-two" ></div>
+    </div>
+</body>
+</html>

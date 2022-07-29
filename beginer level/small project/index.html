@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+              @media screen and (max-width:1000px) {
+            body {
+                background-color: aqua;
+            }
+        }
+        @media screen and (max-width:500px) {
+            body {
+                background-color: white;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div class="containerA" >
+        <div class="upperList" >
+            <div class="logoDiv" >
+                <i class="fa-brands logoOne fa-soundcloud"></i>
+            </div>
+            <div class="boxDiv" >
+                <div class="boxfirst" ><a class="styleA" href="#">PREMIUM</a></div>
+                <div class="boxfirst " ><a class=" styleA" href="">CONTACT</a></div>
+                <div class="boxfirst " ><a class="styleA" href="">LANUAGE</a></div>
+                <div class=" boxfirst " ><a class="styleA " href="">MORE</a></div>
+                 <div class="boxfirst  " ><a class="styleA" href="">SIGN UP</a></div>
+            </div> 
+        </div>
+    </div>
+    <div class="containerB" >
+        <form class="formContainer" >
+            <div class="form-group">
+              <label class="labelFont" for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" required  placeholder="Enter email ">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label class="labelFont" for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" required placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label labelFont " for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Log In</button>
+          </form>
+    </div>
+    <div class="containerC" >
+        <h2>Popular Song</h2>
+        <span class="headG" >click imge to open song</span>
+        <div class="imgContainerA" >
+            <div class="imgOneDiv songHover" >
+                <img class="imgShadow" src="https://i1.sndcdn.com/artworks-zcyP3y5qfbwixsCv-eIVQOA-t500x500.jpg" alt="justin bieber">
+                <div class="songIconOne" ></div>
+                <audio class="auidoOne" src=""></audio>
+            </div>
+            <div class="imgTwoDiv songHover " >
+                <img class="imgShadow songHover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9TardFS1upfVQphMtNMTS8-NnqtwDOPcFDQ&usqp=CAU" alt="post malone">
+                <audio class="auidoOne" src=""></audio>
+            </div>
+            <div class="imgThreeDiv songHover" >
+                <img class="imgShadow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYfQ3mmiLo9KsajhCzFDw_iyVxSpLB6fVcA&usqp=CAU" alt="charlie puth">
+                <audio class="auidoOne" src=""></audio>
+            </div>
+            <div class="imgFourDiv songHover" >
+                <img class="imgShadow" src="data:image/jpeg;base64,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" alt="xooos">
+                <audio class="auidoOne" src=""></audio>
+            </div>
+        </div>
+        <div class="imgContainerB" >
+            <div class="imgDiv" >
+                <img  style="width: 100%; border-radius: 10px;" src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="">
+                <p>
+                    Music is a pleasant sound which is a combination of melodies and harmony and which soothes you. Music may also refer to the art of composing such pleasant sounds with the help of the various musical instruments. A person who knows music is a Musician. The music consists of Sargam, Ragas, Taals, etc.
+                </p>
+            </div>
+            <div  class="imgDiv" >
+                <img style="width: 100%; border-radius: 10px;"  src="https://images.unsplash.com/photo-1499415479124-43c32433a620?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
+                <p>
+                    Music can transform the emotions and feelings of the people within no time. It can lessen the stress, pain, struggle, distraction and bring positivity and calmness in our daily life. Music holds the power to bring people together in different ways.
+                </p>
+            </div>
+            <div class="imgDiv" >
+                <img  style="width: 100%; border-radius: 10px;"  src="https://media.istockphoto.com/photos/sound-wave-finance-chart-picture-id1306461345" alt="">
+                <p>
+                        40 Facts About Music That Really Sing
+                        Musicians Have Shorter Life Spans Than the General Population. ...
+                        In 2016, Mozart Sold More CDs than Beyoncé ...
+                        Singing in a Group Boosts Mood. ...
+                        Some People Feel Nothing Toward Music. ...
+                        Listening to Music Enhances Physical Performance. ...
+                        Rod Stewart Hosted the Largest Ever Free Concert.
+                </p>
+            </div>
+            <div class="imgDiv" >
+                <img  style="width: 100%; border-radius: 10px;" src="https://media.istockphoto.com/photos/young-handsome-african-man-wearing-headphones-listening-to-music-and-picture-id1320722438?b=1&k=20&m=1320722438&s=170667a&w=0&h=7bJUiK2c6k3GaWIeUOjaJw0B090nxqlGYU_vhK300WY=" alt="">
+                <p>
+                    music, art concerned with combining vocal or instrumental sounds for beauty of form or emotional expression, usually according to cultural standards of rhythm, melody, and, in most Western music, harmony. Both the simple folk song and the complex electronic composition belong to the same activity, music.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="containerD" >
+        <div class="logo">
+            <i class="fa-brands fa-soundcloud"></i>
+        </div>
+            <div class="leftDiv" >
+                <div class="one" >
+                  <div>
+                    <span class="spanFor" >Community</span>
+                    <ul class="ul-list">
+                        <li class="hovList" >Tutorials</li>
+                        <li class="hovList" >Documentation</li>
+                        <li class="hovList" >Forum</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <span class="spanFor" >Open Source</span>
+                    <ul class="ul-list">
+                        <li class="hovList" >Github</li>
+                        <li class="hovList" >Runbot</li>
+                        <li class="hovList" >Translations</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="two" >
+                    <span class="spanFor" >Services</span>
+                    <ul class="ul-list">
+                        <li class="hovList" >Support</li>
+                        <li class="hovList" >Upgrade</li>
+                        <li class="hovList" >Forum</li>
+                        <li class="hovList" >Find an Accountant </li>
+                        <li class="hovList" >Find a Partner</li>
+                        <li class="hovList" >Become a Partner</li>
+                    </ul>
+                </div>
+                <div class="three" >
+                    <span class="spanFor" >About us</span>
+                    <ul class="ul-list">
+                        <li class="hovList" >Our company</li>
+                        <li class="hovList" >Contact us   </li>
+                        <li class="hovList" >Jobs</li>
+                        <li class="hovList" >Events </li>
+                        <li class="hovList" >Blog</li>
+                        <li class="hovList" >Legal</li>
+                        <li class="hovList" >Privacy</li>
+                        <li class="hovList" >Security</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightDiv" >
+                <div class="lanLogoDiv">
+                    <img class="imgFlag" src="https://pngimg.com/uploads/flags/flags_PNG14592.png" alt="">
+                    <span class="hovList styleF" >English</span>
+                </div>
+                <br>
+                <hr>
+                <div class="lanNameDiv">
+                    <p>
+                        Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
+                    </p>
+                    <p>
+                        Odoo's unique value proposition is to be at the same time very easy to use and fully integrated.
+                    </p>
+                </div>
+                <div class="soIcon">
+                    <i class="fa-brands mediaIc hovList fa-twitter"></i>
+                    <i class="fa-brands mediaIc hovList fa-facebook"></i>
+                    <i class="fa-brands mediaIc hovList fa-linkedin-in"></i>
+                    <i class="fa-brands mediaIc hovList fa-github-square"></i>
+                    <i class="fa-brands mediaIc hovList fa-instagram"></i>
+                    <i class="fa-solid mediaIc hovList fa-envelope"></i>
+                </div>
+            </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>

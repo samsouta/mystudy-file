@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const x = [
+            {name:"A", age:"19", gender:"male"},
+            {name:"B", age:"19", gender:"female"},
+            {name:"C", age:"19", gender:"male"},
+            {name:"D", age:"19", gender:"female"}
+        ]
+    for (let i =0; i<x.length; i++) {
+        let forFemale = x[i];
+        if(forFemale.gender === "female"){
+        break;
+        }
+        console.log("sended your mailbox now ... .", forFemale.gender)
+    }
+   
+
+    </script>
+</body>
+</html>

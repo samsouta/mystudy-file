@@ -1,0 +1,36 @@
+body {
+    background-color: grey;
+}
+.form-control {
+    max-width: 400px;
+}
+.form-group {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spanClass {
+    display: inline;
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    user-select: none;
+}
+.valueContainer {
+    margin-bottom: 40px;
+}
+.fa-solid {
+    font-size: 20px;
+    cursor: pointer;
+}
+.lineIn {
+    text-decoration: line-through;
+}
+
+
+
+

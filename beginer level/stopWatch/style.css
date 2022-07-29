@@ -1,0 +1,34 @@
+body {
+    
+    background-color: lightblue;
+}
+.container {
+    margin: 0% 0% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.miniContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    
+}
+.stopWatch {
+    height: 255px;
+    color: red;
+    font-size: 200px;
+    font-weight: bold;
+}
+.miniSecond {
+    color: blue;
+    font-size: 40px;
+}
+.botton {
+    margin: 10px;
+}
+.btnDiv {
+   
+}

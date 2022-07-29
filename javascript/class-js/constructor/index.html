@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+       // constructor 
+       /* constructo  အရင်ဆုံးအလုပ်လုပ်တဲ့ method, class name နောက်က () က constructor ကို passing ပေးလို့ရတယ် */
+       //syntax
+       /*
+       constructor () {
+        console.log("hi myself")
+       }
+       
+       */
+      // don't forget (this) is representation (class) or (object)
+        // class SchoolInfor {
+        //     constructor (x,y){
+        //         console.log("hell off----"+x+"=="+y)
+        //     }
+        // }
+        // let con = new SchoolInfor("you fk off","shee "); // make object 
+
+        // this is make real work with (class)=>instructor
+        class InSchool {
+            constructor(x,y,z,i){
+                this.name = x;
+                this.age = y;
+                this.emailAcc = z;
+                this.level =i
+        }
+        skill(){
+                 return this.level+"eng"
+             }
+    }
+    let a1 = new InSchool("yagami","20","yagami@gmail.com","good");
+    let a2 = new InSchool("souta","21","souta@gmail.com","bad");
+    let a3 = new InSchool("kira","25","kira@gmail.com","good");
+    let a4 = new InSchool("kimi","19","kimi@gmail.com","bad");
+    
+    
+    
+    </script>
+</body>
+</html>

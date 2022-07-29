@@ -1,0 +1,186 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-color: #0092B9;
+    height: 400vh;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif
+}
+.upperList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logoDiv {
+    margin-left: 10px;
+}
+.logoOne {
+    font-size: 50px;
+    color: #443E98;
+    color:rgb(196, 190, 190);
+    margin-top: 0px !important; 
+}
+.boxDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.boxfirst {
+    margin-right: 30px;
+}
+.styleA {
+    text-decoration: none;
+    color: #F5ECFF  ;
+    
+}
+.styleA:hover {
+    transition: 0.5s;
+    color: #75B0B9;
+    text-decoration: underline;
+    
+}
+.form-control {
+    width: 300px;
+}
+.labelFont {
+    color: white;
+}
+.formContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.containerB {
+    margin-top: 100px;
+    margin-bottom: 250px;
+}
+.headG {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+.imgContainerA{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+.imgContainerB{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+}
+.imgShadow {
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.imgOneDiv {
+    height: 250px;
+}
+.imgFourDiv {
+    height: 250px;
+}
+.imgDiv{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+h2 {
+    text-align: center; 
+    font-weight: bold; 
+}
+p{
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+.containerC{
+    margin-bottom: 200px;
+}
+.containerD{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    background-color: #484554 ;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fa-brands {
+    font-size: 70px;
+    margin-top: 30px;
+}
+.leftDiv {
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+.rightDiv {
+    width: 40%;
+    height: 300px;
+    float: right;
+}
+.imgFlag {
+    width: 40px;
+}
+.mediaIc {
+    font-size: 25px;
+    padding-right: 30px;
+}
+.fa-envelope {
+    font-size: 25px;
+    color: rgb(36, 33, 33);
+}
+.one{
+    margin-left: 20px;
+    
+}
+
+.spanFor {
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.ul-list {
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.styleF {
+    font-weight: bold;
+}
+.hovList:hover {
+    color: rgb(215, 207, 207);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fa-volume-high {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+.fa-volume-slash {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+.songHover:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 250px;
+}
+

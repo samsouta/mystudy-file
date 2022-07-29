@@ -1,0 +1,36 @@
+body {
+    background-color: #3A607D;
+}
+.container {
+    height: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-control {
+    margin-top: 20px;
+    max-width: 400px;
+    font-size: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.itemListContainer {
+    background-color: #9DADBC;
+    
+}
+.itemListChild {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    border-bottom: 1px solid rgb(205, 196, 196);
+    cursor: pointer;
+}
+.productTitle {
+    font-size: 15px;
+}
+.productImg {
+    width: 40px;
+    height: auto;
+    padding-left: 10px;
+}
